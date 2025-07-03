@@ -25,7 +25,7 @@ public class BankTask extends Task {
     }
 
     //TODO get a fish barrel and check the option, i dont have 1 to test with
-    Item barrel = Inventory.backpack().getItems("Fish barrel").first();
+    Item barrel = Inventory.backpack().getItems("Fish barrel", "Open fish barrel").first();
     if (barrel != null) {
       barrel.interact("Empty");
     }
