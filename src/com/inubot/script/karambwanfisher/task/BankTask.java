@@ -10,7 +10,7 @@ import org.rspeer.game.script.TaskDescriptor;
 public class BankTask extends Task {
 
   private static final String[] KEEP = {
-      "Raw karambwanji", "Karambwan vessel", "Small fishing net", "Spirit flakes", "Fish barrel"
+      "Raw karambwanji", "Karambwan vessel", "Small fishing net", "Spirit flakes", "Fish barrel", "Open fish barrel"
   };
 
   @Override
